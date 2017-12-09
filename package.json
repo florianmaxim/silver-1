@@ -1,0 +1,23 @@
+{
+  "name": "gold-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config .webpack.config.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.4.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "express": "^4.15.2",
+    "expresss": "0.0.0",
+    "html-webpack-plugin": "^2.28.0",
+    "three": "^0.84.0",
+    "webpack": "^2.4.1"
+  }
+}
